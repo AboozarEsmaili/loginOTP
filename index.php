@@ -1,70 +1,52 @@
-<?php
-require_once('config/loader.php');
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 
-?>
-
-<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css" />
+  <title>طلای خیرخواه</title>
 </head>
 
-<body>
-  <div class="container" id="container">
-
-  <!-- sign up -->
-    <div class="form-container sign-up">
-      <form method="POST" action="action/sign-up.php">
-        <h1>Create Account</h1>
-        <div class="social-icons">
-          <a href="#" class="icons"><i class="fa-brands fa-google-plus-g"></i></a>
-          <a href="#" class="icons"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
-          <a href="#" class="icons"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <span>or use your email to registration</span>
-        <input type="text" name="username" placeholder="userName">
-        <input type="email" name="email" placeholder="Email">
-        <input type="text" name="mobile" name placeholder="MobileNumber">
-        <input type="password" name="password" placeholder="Password">
-        <button type="submit" name="signup">Sign Up</button>
-      </form>
-    </div>
-
-  <!-- sign in -->
-    <div class="form-container sign-in">
-      <form>
-        <h1>Sign In</h1>
- <br>
-            <span>or use your email/password</span>
-            <input type="text" placeholder="Mobile / Username / Password">
-            <input type="password" placeholder="Password">
-            <a href="#">Forget your Password?</a>
-            <div style="display: inline;">
-                <button>Sign In</button>
-                <a style="margin-left: 15px" href="otp.php">Send OTP</a>        
+<body class="yekan-font">
+  <div class="container-fluid login_page">
+    <div class="row">
+      <div class="d-flex col-md-6 login_page_right_col half-page">
+        <div class="form-signin w-100 m-auto">
+          <form>
+            <div class="mb-4 logo_set">
+              <img src="https://www.svgrepo.com/show/277194/gold-ingots-gold.svg" alt="" width="72"
+              height="57">
+            <span class="num-fontpi">طلای نوین</span>
             </div>
-      </form>
-    </div>
-    <div class="toggle-container">
-      <div class="toggle">
-        <div class="toggle-panel toggle-left">
-          <h1>Welcome Back!</h1>
-          <p>Enter your Personal details to use all of site features</p>
-          <button class="hidden" id="login">Sign In</button>
+            <h5 class="fs-6 mb-3 fw-normal">ورود با شماره موبایل</h5>
+            <div class="input-group mb-3 input_ltr">
+              <span class="input-group-text num-fontpi input_mobile_span">+98</span>
+              <input type="text" class="form-control num-fontpi input_mobile" placeholder="">
+            </div>
+            <button class="btn btn-primary w-100 py-2 login_btn num-fontpi" type="submit">ورود</button>
+            <p class="mt-5 mb-3 text-body-secondary fw-light copy_right">2025 © تمامی حقوق برای طلای نوین محفوظ است </p>
+          </form>
         </div>
-        <div class="toggle-panel toggle-right">
-          <h1>Hello, Friend!</h1>
-          <p>Register with your Personal details to use all of site features</p>
-          <button class="hidden" id="register">Sign Up</button>
+      </div>
+
+      <div class="d-flex col-md-6 login_page_left_col half-page">
+        <div class="login_notice w-100 m-auto">
+          <h3 class="num-fontpi">اطلاعیه</h3>
+          <p class="lh-lg">همکار محترم جهت اصلاخ شماره تماس باید الحاقیه به قرارداد شما زده شود ، پس لطفا تلفنی درخواست نفرمایید و حضوری جهت تغییر اطلاعات مراجعه نماید.</p>
+          <a class="btn btn-light btn-lg fs-6" href="#">جزئیات بیشتر</a>
         </div>
       </div>
     </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
-<script src="./assets/script/js/script.js"></script>
+
 </html>
