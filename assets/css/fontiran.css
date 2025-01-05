@@ -1,0 +1,68 @@
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 100;
+	src: url('font/YekanBakhFaNum-Thin.woff') format('woff'),
+		url('font/YekanBakhFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 300;
+	src: url('font/YekanBakhFaNum-Light.woff') format('woff'),
+		url('font/YekanBakhFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: normal;
+	src: url('font/YekanBakhFaNum-Regular.woff') format('woff'),
+		url('font/YekanBakhFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 600;
+	src: url('font/YekanBakhFaNum-SemiBold.woff') format('woff'),
+		url('font/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: bold;
+	src: url('font/YekanBakhFaNum-Bold.woff') format('woff'),
+		url('font/YekanBakhFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 800;
+	src: url('font/YekanBakhFaNum-ExtraBold.woff') format('woff'),
+		url('font/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 900;
+	src: url('font/YekanBakhFaNum-Black.woff') format('woff'),
+		url('font/YekanBakhFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 950;
+	src: url('font/YekanBakhFaNum-ExtraBlack.woff') format('woff'),
+		url('font/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+}
+
+
+.yekan-font{
+	font-family: Yekan Bakh !important;
+}

@@ -1,0 +1,86 @@
+/* ------------------- */
+/* add fonts  */
+/* ------------------- */
+
+@import "fontiran.css";
+
+@font-face {
+  font-family: "Pinar-VF";
+  src: url("font/Pinar-DS2-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Pinar-VF2";
+  src: url("font/Pinar-DS1-FD-Black.woff2");
+}
+
+/* ------------------- */
+/* color  */
+/* ------------------- */
+:root{
+    --main-color: #FFBB32;
+    --main-color-25op: #FFBB3225;
+}
+
+.num-fontpi {
+  font-family: "Pinar-VF2";
+}
+
+
+
+.half-page {
+    height: 100vh;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+.login_notice{
+    max-width: 660px;
+    padding: 1rem;
+}
+.login_btn{
+    color: var(--bs-body-color);
+    background-color: var(--main-color);
+    border: 0;
+}
+.login_btn:hover{
+    color: var(--bs-body-color);
+    background-color: var(--main-color-25op);
+}
+
+
+.login_page_left_col {
+    background-color: var(--main-color);
+}
+
+.input_ltr{
+    direction: ltr;
+}
+.input_mobile:focus{
+    border-color: var(--main-color);
+    box-shadow: unset;
+}
+
+.input_mobile_span{
+    background-color: var(--main-color-25op);
+}
+
+
+.copy_right{
+    font-size: 0.8rem
+}
+
+@media (min-width: 1400px) {
+    .half-page {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
